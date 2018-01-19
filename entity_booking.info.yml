@@ -1,0 +1,8 @@
+name: 'Entity Booking'
+type: module
+description: 'Test Entity Booking'
+core: 8.x
+package: 'Entity Booking'
+dependencies:
+  - entity_reference_revisions
+  - paragraphs

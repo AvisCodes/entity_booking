@@ -1,0 +1,17 @@
+name: 'Entity Booking Configs'
+type: module
+core: 8.x
+package: 'Entity Booking'
+description: 'Configs for Test Entity Booking'
+dependencies:
+  - entity_booking
+  - entity_reference_revisions
+  - field
+  - menu_ui
+  - node
+  - paragraphs
+  - path
+  - taxonomy
+  - text
+  - user
+  - default_content

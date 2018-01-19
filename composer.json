@@ -1,0 +1,14 @@
+{
+  "name": "drupal/entity_booking",
+  "type": "drupal-module",
+  "description": "Test Entity Booking",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/entity_booking",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/entity_booking",
+    "source": "http://cgit.drupalcode.org/entity_booking"
+  },
+  "require": { }
+}

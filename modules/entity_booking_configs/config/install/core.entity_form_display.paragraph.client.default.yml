@@ -1,0 +1,38 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.client.field_age
+    - field.field.paragraph.client.field_full_name
+    - field.field.paragraph.client.field_type
+    - paragraphs.paragraphs_type.client
+id: paragraph.client.default
+targetEntityType: paragraph
+bundle: client
+mode: default
+content:
+  field_age:
+    weight: 1
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_full_name:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_type:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+hidden:
+  created: true
+  status: true
+  uid: true

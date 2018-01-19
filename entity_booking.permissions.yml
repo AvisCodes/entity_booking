@@ -1,0 +1,19 @@
+add booking entities:
+  title: 'Create new Booking entities'
+
+administer booking entities:
+  title: 'Administer Booking entities'
+  description: 'Allow to access the administration form to configure Booking entities.'
+  restrict access: true
+
+delete booking entities:
+  title: 'Delete Booking entities'
+
+edit booking entities:
+  title: 'Edit Booking entities'
+
+view published booking entities:
+  title: 'View published Booking entities'
+
+view unpublished booking entities:
+  title: 'View unpublished Booking entities'

@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.booking.field_clients
+    - paragraphs.paragraphs_type.client
+  module:
+    - entity_booking
+    - entity_reference_revisions
+id: booking.booking.field_clients
+field_name: field_clients
+entity_type: booking
+bundle: booking
+label: Clients
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      client: client
+    target_bundles_drag_drop:
+      client:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions
